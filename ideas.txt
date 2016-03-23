@@ -7,3 +7,5 @@ Music: whenever artists mention album releases, the program we would build would
 Politics: a live updater of campaign spending, seeing who has recently donated significant amounts of money
 ---
 We narrowed it down to a music idea that aggregates reviews and filters them based on genre, artist, and review score. This information is all availible in different formats. The minimum we envision seeing being built is a script that people can use to ask and receive answers based on our filtering. The closest thing we see this being compared to is the website Metacritic.
+
+The link to our google drawing is here: https://docs.google.com/drawings/d/1wa-0l_mcFZNH2gipmjKFEVmvpupw8ppovATwck6pTTU/edit?usp=sharing
