@@ -10,3 +10,4 @@ def get_article_links(section_url):
 	category_links = ["http://www.rollingstone.com" + dd.a["href"] for dd in boccat.findAll("dd")]
 	return article_links
 	
+# source http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/
