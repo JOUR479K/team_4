@@ -1,0 +1,12 @@
+from bs4 import BeautifulSoup
+from urllib2 import urlopen
+
+BASE_URL = "http://www.rollingstone.com/search?q=frankie%20cosmos"
+
+def get_article_links(section_url):
+	html = urlopen(section_url).read()
+	soup = BeautifulSoup(html, "lxml")
+	boccat = soup.find("div", "primary")
+	category_links = ["http://www.rollingstone.com" + dd.a["href"] for dd in boccat.findAll("dd")]
+	return article_links
+	
