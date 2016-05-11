@@ -1,0 +1,38 @@
+Phoebe Dinner 
+Carlos Rodriguez
+Gabe Fernandez
+
+	Summary of how we created our project- 
+
+Step 1: We thought up of the idea to create some kind of scraper for music news, refining it through collecting news 
+from many sites, to collecting information for indie music. 
+
+Step 2: Using the web scraper from class, we replaced the url to use the url from the music sites we needed to scrape from. 
+
+Step 3: We created an html using GitHub so we could insert this html into our scraper. 
+
+Step 4: In theory, the scraper then would pull all the information such as links to the artists and related news and put them in a csv.
+Instead of taking from a table like we did in class we are using links. We had to take the links from other sites and incorporate it 
+into our scraper.
+
+	* We were having A LOT of syntax errors when it came to our actual coding of the web scraper so we contacted our amazing professor (you). We did the best we could.
+
+Step 5: The CSV would be posted on GitHub pages, and that way we would have a collection of links to the artists we told the scraper 
+to search for.
+
+Step 6: Web scraper takes the highlighted section of inspector tools and extracts every single file, there is a don’t repeat 
+yourself so if an article is there again it doesn’t pick it so you can filter through the types of articles already
+Step 7: We created an HTML from GitHub and created another CSV that had the top bands from the flash issue top 30 bands 
+and got the url for any that appeared in rolling stone 
+
+Step 8: We created a web scraper for each of the bands that we got from the Flash Issue.
+
+
+All these steps didn’t go as smoothly as we hoped… 
+Even if this didn’t work out we have an extremely rudimentary version of what this could be. We have the web scraper
+but we ‘re getting stuck because we took a different approach to what we did in class so we can’t turn it into a csv as 
+easily because we’re taking links from search pages instead of the nice and neat tables. 
+Therefore we emailed you and asked the best way to get around this hurtle and you recommended using a .csv file.
+
+We also wanted to include an easily crafted CSV file using the Tabula app but the list that we wanted to use only came in JPG format, which doesn’t work in Tabula so we were not able to do that step.
+Every one of the python files, if they were to run would create article.csv. Since each one would have the same name with more time we would change the name and it would be much easier to link files with the artist on the website.
