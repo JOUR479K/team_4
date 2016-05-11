@@ -15,7 +15,8 @@ Step 4: In theory, the scraper then would pull all the information such as links
 Instead of taking from a table like we did in class we are using links. We had to take the links from other sites and incorporate it 
 into our scraper.
 
-	* We were having A LOT of syntax errors when it came to our actual coding of the web scraper so we contacted our amazing professor (you). We did the best we could.
+	* We were having A LOT of syntax errors when it came to our actual coding of the web scraper so we contacted our 
+	amazing professor (you). We did the best we could.
 
 Step 5: The CSV would be posted on GitHub pages, and that way we would have a collection of links to the artists we told the scraper 
 to search for.
@@ -34,5 +35,13 @@ but we ‘re getting stuck because we took a different approach to what we did i
 easily because we’re taking links from search pages instead of the nice and neat tables. 
 Therefore we emailed you and asked the best way to get around this hurtle and you recommended using a .csv file.
 
-We also wanted to include an easily crafted CSV file using the Tabula app but the list that we wanted to use only came in JPG format, which doesn’t work in Tabula so we were not able to do that step.
-Every one of the python files, if they were to run would create article.csv. Since each one would have the same name with more time we would change the name and it would be much easier to link files with the artist on the website.
+
+We also wanted to include an easily crafted CSV file using the Tabula app but the list that we wanted to use only came in JPG 
+format, which doesn’t work in Tabula so we were not able to do that step.
+Every one of the python files, if they were to run would create article.csv. Since each one would have the same name with 
+more time we would change the name and it would be much easier to link files with the artist on the website.
+
+Another problem we had in the end was
+1. Dead links (rolling stone had a lot and they came back as 
+"null" we had to go in and edit those out)
+2. Bands with names that were common words (i.e say anything yielded lots of stories not related to the band)
